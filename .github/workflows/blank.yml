@@ -12,7 +12,8 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: detect secrets
-        run: pip install detect-secrets
-         detect-secrets scan
+        run: 
+             pip install detect-secrets
+             detect-secrets scan
 
      
